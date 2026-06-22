@@ -4,6 +4,10 @@ A simple full-stack portfolio project where a developer submits a GitHub reposit
 
 The project is intentionally student-friendly: one React app, one Express API, SQLite for local storage, no Docker, no authentication, and no cloud services required.
 
+## Reference Images
+<img width="2447" height="1435" alt="image" src="https://github.com/user-attachments/assets/9b0b622b-305b-4e82-9160-ba2b6ceba56d" />
+<img width="2447" height="1435" alt="image" src="https://github.com/user-attachments/assets/ba658554-a8a7-4e8d-9413-faac41c643a7" />
+
 ## Folder Structure
 
 ```text
