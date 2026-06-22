@@ -6,7 +6,7 @@ The project is intentionally student-friendly: one React app, one Express API, S
 
 ## Reference Images
 <img width="2447" height="1435" alt="image" src="https://github.com/user-attachments/assets/9b0b622b-305b-4e82-9160-ba2b6ceba56d" />
-<img width="2447" height="1435" alt="image" src="https://github.com/user-attachments/assets/960ecca8-d3dd-4a40-9a6f-71b722ebc4e9" />
+<img width="2442" height="287" alt="image" src="https://github.com/user-attachments/assets/8e0b24f6-fadd-408d-939d-23c99548be43" />
 
 ## Folder Structure
 
