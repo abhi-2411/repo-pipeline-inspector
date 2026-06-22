@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-and-test:
+    name: Install, lint, test, and build
+    runs-on: ubuntu-latest
+
+    steps:
+      # Download the repository code into the GitHub Actions runner.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Use a modern Node.js version that works with Vite and Express.
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Install the root package used to run both apps.
+      - name: Install root dependencies
+        run: npm install
+
+      # Install backend and frontend dependencies.
+      - name: Install app dependencies
+        run: npm run install:all
+
+      # Run backend and frontend lint checks.
+      - name: Run linting
+        run: npm run lint
+
+      # Run backend and frontend tests.
+      - name: Run tests
+        run: npm run test
+
+      # Build both apps to catch production build errors early.
+      - name: Build apps
+        run: npm run build
